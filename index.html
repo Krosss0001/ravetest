@@ -1,255 +1,246 @@
 <!DOCTYPE html>
-<html lang="ru" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rave'era Group | Event Agency</title>
+  <title>Rave'era Group Website</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
     body { font-family: 'Inter', system-ui, sans-serif; }
     .heading-font { font-family: 'Playfair Display', sans-serif; }
-    .hero-bg {
-      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
-    }
+    .hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
   </style>
 </head>
 <body class="bg-black text-white">
 
-  <!-- NAV -->
-  <nav class="fixed top-0 left-0 right-0 bg-black/80 backdrop-blur-md z-50 border-b border-white/10">
-    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 bg-black/90 backdrop-blur-md z-50 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <i class="fas fa-star text-amber-400 text-2xl"></i>
-        <h1 class="text-2xl font-bold tracking-tighter heading-font">Rave'era</h1>
+        <i class="fas fa-star text-amber-400 text-3xl"></i>
+        <h1 class="text-3xl font-bold tracking-tighter heading-font">Rave'era</h1>
       </div>
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-        <a href="#cases" class="hover:text-amber-400 transition">Кейсы</a>
-        <a href="#about" class="hover:text-amber-400 transition">О нас</a>
-        <a href="#services" class="hover:text-amber-400 transition">Услуги</a>
-        <a href="#team" class="hover:text-amber-400 transition">Команда</a>
+      <div class="flex items-center gap-8 text-sm font-medium">
+        <a href="#portfolio" class="hover:text-amber-400 transition">Portfolio</a>
+        <a href="#agency" class="hover:text-amber-400 transition">Agency</a>
+        <a href="#services" class="hover:text-amber-400 transition">Services</a>
+        <a href="#people" class="hover:text-amber-400 transition">People</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
       </div>
-      <a href="#contact" 
-         class="px-6 py-3 bg-white text-black font-semibold rounded-full hover:bg-amber-400 hover:text-black transition">
-        Связаться
-      </a>
+      <div class="flex items-center gap-4">
+        <span class="text-xs font-medium px-3 py-1 border border-white/30 rounded-full">UA</span>
+        <span class="text-sm font-medium">Global Event Agency</span>
+      </div>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="hero-bg min-h-screen flex items-center pt-20">
-    <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 items-center">
+    <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
       <div>
-        <h1 class="text-7xl md:text-8xl font-bold leading-none heading-font mb-6">
-          WE CREATE<br>IMPACT
-        </h1>
-        <p class="text-2xl text-gray-300 mb-10">
-          A premium global event agency designing conferences, corporate gatherings,<br>
-          and creative live experiences for top-tier clients worldwide.
-        </p>
-        <div class="flex items-center gap-4">
-          <a href="#contact" 
-             class="px-10 py-5 bg-amber-400 hover:bg-white text-black font-semibold text-lg rounded-2xl transition flex items-center gap-3">
-            <span>Book Now</span>
-            <i class="fas fa-arrow-right"></i>
-          </a>
-          <div class="text-sm">
-            <div class="text-gray-400">Baltimore, MD</div>
-          </div>
-        </div>
-      </div>
-      <div class="hidden md:block text-right">
-        <div class="inline-block bg-white/10 backdrop-blur-xl px-8 py-6 rounded-3xl border border-white/20">
-          <p class="text-amber-400 text-sm tracking-widest">TRUSTED BY</p>
-          <p class="text-gray-400 mt-4 text-xl">Leading brands worldwide</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- OUR CASES -->
-  <section id="cases" class="py-24 bg-zinc-950">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex justify-between items-end mb-16">
-        <div>
-          <h2 class="text-6xl font-bold heading-font">Our Cases</h2>
-          <p class="text-xl text-gray-400 mt-3">Moments that moved audiences.<br>Stages that set new standards.</p>
-        </div>
-        <a href="#" class="text-amber-400 hover:underline flex items-center gap-2 text-lg">
-          View All <i class="fas fa-arrow-right"></i>
+        <h1 class="text-7xl md:text-8xl font-bold leading-none heading-font mb-8">We Create Impact</h1>
+        <p class="text-2xl text-gray-300 mb-12">Premium conferences, corporate gatherings, and unforgettable live experiences for world-class clients.</p>
+        
+        <a href="#contact" class="inline-flex items-center gap-4 px-10 py-5 bg-amber-400 text-black font-semibold text-xl rounded-3xl hover:bg-white transition">
+          Book a Project
+          <i class="fas fa-arrow-right"></i>
         </a>
+
+        <div class="flex gap-16 mt-20">
+          <div>
+            <div class="text-5xl font-bold text-amber-400">150+</div>
+            <div class="text-gray-400">Global Events</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-amber-400">12</div>
+            <div class="text-gray-400">Countries</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-amber-400">8yr</div>
+            <div class="text-gray-400">Experience</div>
+          </div>
+          <div>
+            <div class="text-5xl font-bold text-amber-400">40+</div>
+            <div class="text-gray-400">Team Members</div>
+          </div>
+        </div>
       </div>
-      
+
+      <div class="text-right hidden md:block">
+        <div class="inline-flex flex-col items-end">
+          <p class="text-sm tracking-widest text-gray-400 mb-4">SCROLL TO EXPLORE ↓</p>
+          <div class="bg-white/10 backdrop-blur-2xl px-8 py-6 rounded-3xl border border-white/20">
+            <p class="text-amber-400 text-sm mb-2">TRUSTED BY INDUSTRY LEADERS</p>
+            <div class="flex gap-8 text-2xl opacity-70">
+              <span>Eventbrite</span>
+              <span>Forbes</span>
+              <span>Bloomberg</span>
+              <span>TEDx</span>
+              <span>Deloitte</span>
+              <span>KPMG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 PORTFOLIO -->
+  <section id="portfolio" class="py-24 bg-zinc-950">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="flex justify-between items-baseline mb-12">
+        <div>
+          <span class="text-amber-400 text-sm tracking-widest">01</span>
+          <h2 class="text-6xl font-bold heading-font">Our Cases</h2>
+        </div>
+        <p class="max-w-md text-xl text-gray-400">Moments that moved audiences. Stages that set new standards. Experiences that left a mark.</p>
+        <a href="#" class="text-amber-400 hover:underline flex items-center gap-2">View All Cases <i class="fas fa-arrow-right"></i></a>
+      </div>
+
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="group bg-zinc-900 rounded-3xl overflow-hidden hover:scale-105 transition">
-          <div class="h-64 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
-            <span class="text-4xl font-bold">NEXUS</span>
-          </div>
+        <!-- Case 1 -->
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+          <div class="h-80 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-6xl font-bold">NEXUS</div>
           <div class="p-8">
-            <span class="text-xs uppercase tracking-widest text-purple-400">Conference</span>
-            <h3 class="text-3xl font-semibold mt-2">Nexus Global Summit</h3>
+            <div class="flex justify-between text-xs uppercase mb-2">
+              <span class="text-purple-400">Conference</span>
+              <span>2024 · New York, USA</span>
+            </div>
+            <h3 class="text-3xl font-semibold">Nexus Global Summit</h3>
           </div>
         </div>
-        <div class="group bg-zinc-900 rounded-3xl overflow-hidden hover:scale-105 transition">
-          <div class="h-64 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
-            <span class="text-4xl font-bold">ECHO</span>
-          </div>
+        <!-- Case 2 -->
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+          <div class="h-80 bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center text-6xl font-bold">ECHO</div>
           <div class="p-8">
-            <span class="text-xs uppercase tracking-widest text-blue-400">Live Music</span>
-            <h3 class="text-3xl font-semibold mt-2">Echo Sound Festival</h3>
+            <div class="flex justify-between text-xs uppercase mb-2">
+              <span class="text-blue-400">Live Music</span>
+              <span>2023 · London, UK</span>
+            </div>
+            <h3 class="text-3xl font-semibold">Echo Sound Festival</h3>
           </div>
         </div>
-        <div class="group bg-zinc-900 rounded-3xl overflow-hidden hover:scale-105 transition">
-          <div class="h-64 bg-gradient-to-br from-amber-600 to-red-600 flex items-center justify-center">
-            <span class="text-4xl font-bold">AURA</span>
-          </div>
+        <!-- Case 3 -->
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden group">
+          <div class="h-80 bg-gradient-to-br from-amber-600 to-red-600 flex items-center justify-center text-6xl font-bold">AURA</div>
           <div class="p-8">
-            <span class="text-xs uppercase tracking-widest text-amber-400">Corporate</span>
-            <h3 class="text-3xl font-semibold mt-2">Aura Gala Dinner</h3>
+            <div class="flex justify-between text-xs uppercase mb-2">
+              <span class="text-amber-400">Corporate</span>
+              <span>2024 · Dubai, UAE</span>
+            </div>
+            <h3 class="text-3xl font-semibold">Aura Gala Dinner</h3>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT US -->
-  <section id="about" class="py-24">
-    <div class="max-w-4xl mx-auto px-6 text-center">
+  <!-- 02 AGENCY -->
+  <section id="agency" class="py-24">
+    <div class="max-w-4xl mx-auto px-8 text-center">
+      <span class="text-amber-400 text-sm tracking-widest">02</span>
       <h2 class="text-6xl font-bold heading-font mb-12">About Us</h2>
-      <p class="text-2xl leading-relaxed text-gray-300 max-w-3xl mx-auto">
-        Rave'era Group is a global event management agency. We orchestrate controlled chaos into elegant, unforgettable live experiences. 
-        From intimate corporate gatherings to massive international conferences, we handle every detail with obsessive precision. 
-        We don't just build stages; we build environments that command attention and drive results.
+      <p class="text-2xl leading-relaxed text-gray-300">
+        Rave'era Group orchestrates controlled chaos into elegant, unforgettable live experiences on a global scale.<br><br>
+        From intimate corporate gatherings to massive international conferences — we handle every detail with obsessive precision. We don't build stages; we build environments that command attention and drive results.
       </p>
-      <div class="mt-20 grid grid-cols-2 gap-12 text-center">
-        <div>
-          <div class="text-7xl font-bold text-amber-400">150+</div>
-          <p class="text-gray-400 mt-3 text-lg">Global Events</p>
-        </div>
-        <div>
-          <div class="text-7xl font-bold text-amber-400">12</div>
-          <p class="text-gray-400 mt-3 text-lg">Countries</p>
-        </div>
-      </div>
+      <p class="mt-12 text-gray-400">Founded in Baltimore, trusted worldwide.</p>
     </div>
   </section>
 
-  <!-- SERVICES -->
+  <!-- 03 SERVICES -->
   <section id="services" class="py-24 bg-zinc-950">
-    <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-6xl font-bold heading-font text-center mb-16">Our Services</h2>
+    <div class="max-w-7xl mx-auto px-8">
+      <span class="text-amber-400 text-sm tracking-widest">03</span>
+      <h2 class="text-6xl font-bold heading-font mb-16 text-center">Our Services</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Concept &amp; Creativity</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Creative concept development</li>
-            <li>Art direction &amp; scenography</li>
-            <li>Brand activation planning</li>
-          </ul>
+          <p class="text-gray-400">Creative concept development, Art direction &amp; scenography, Brand activation planning</p>
         </div>
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Event Production</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Full event logistics</li>
-            <li>Stage design &amp; setup</li>
-            <li>On-site coordination</li>
-          </ul>
+          <p class="text-gray-400">Full event logistics, Stage design &amp; setup, On-site coordination</p>
         </div>
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Tech &amp; Streaming</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Live streaming setup</li>
-            <li>Virtual platforms</li>
-            <li>Hybrid events</li>
-          </ul>
+          <p class="text-gray-400">Live streaming setup, Virtual platforms, Hybrid events</p>
         </div>
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Marketing &amp; Media</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Social media campaigns</li>
-            <li>PR management</li>
-            <li>Content creation</li>
-          </ul>
+          <p class="text-gray-400">Social media campaigns, PR management, Content creation</p>
         </div>
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Sponsorship &amp; Partners</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Brand partnerships</li>
-            <li>Investor outreach</li>
-            <li>Strategic collaborations</li>
-          </ul>
+          <p class="text-gray-400">Brand partnerships, Investor outreach, Strategic collaborations</p>
         </div>
         <div class="bg-zinc-900 p-8 rounded-3xl">
           <h3 class="text-3xl font-semibold mb-6">Analytics &amp; Reporting</h3>
-          <ul class="space-y-4 text-gray-400">
-            <li>Performance metrics</li>
-            <li>ROI analysis</li>
-            <li>Post-event debriefs</li>
-          </ul>
+          <p class="text-gray-400">Performance metrics, ROI analysis, Post-event debriefs</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TEAM -->
-  <section id="team" class="py-24">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="text-6xl font-bold heading-font">Our Team</h2>
-        <p class="text-gray-400 text-xl mt-4">The masterminds behind the curtain.</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
+  <!-- 04 PEOPLE -->
+  <section id="people" class="py-24">
+    <div class="max-w-7xl mx-auto px-8">
+      <span class="text-amber-400 text-sm tracking-widest">04</span>
+      <h2 class="text-6xl font-bold heading-font mb-4 text-center">Our Team</h2>
+      <p class="text-center text-xl text-gray-400 mb-16">The masterminds behind the curtain.</p>
+      
+      <div class="grid md:grid-cols-3 gap-12">
         <div class="text-center">
-          <div class="w-40 h-40 mx-auto bg-zinc-800 rounded-3xl flex items-center justify-center text-6xl mb-6">👔</div>
+          <div class="mx-auto w-28 h-28 bg-zinc-800 rounded-2xl flex items-center justify-center text-6xl mb-6">👔</div>
           <h4 class="text-2xl font-semibold">Gregory Peterson</h4>
           <p class="text-amber-400">Head of Production</p>
+          <p class="text-sm text-gray-400 mt-2">12 years in live events</p>
         </div>
         <div class="text-center">
-          <div class="w-40 h-40 mx-auto bg-zinc-800 rounded-3xl flex items-center justify-center text-6xl mb-6">🎨</div>
+          <div class="mx-auto w-28 h-28 bg-zinc-800 rounded-2xl flex items-center justify-center text-6xl mb-6">🎨</div>
           <h4 class="text-2xl font-semibold">Melissa Andrews</h4>
           <p class="text-amber-400">Creative Director</p>
+          <p class="text-sm text-gray-400 mt-2">Former MTV creative lead</p>
         </div>
         <div class="text-center">
-          <div class="w-40 h-40 mx-auto bg-zinc-800 rounded-3xl flex items-center justify-center text-6xl mb-6">📍</div>
+          <div class="mx-auto w-28 h-28 bg-zinc-800 rounded-2xl flex items-center justify-center text-6xl mb-6">📍</div>
           <h4 class="text-2xl font-semibold">Michael Barnes</h4>
           <p class="text-amber-400">Event Coordinator</p>
+          <p class="text-sm text-gray-400 mt-2">300+ events delivered</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- 05 CONTACT -->
   <section id="contact" class="py-24 bg-zinc-950">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-6xl font-bold heading-font mb-10">Ready to Collaborate?</h2>
-      <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
-        <a href="mailto:contact@evans.com" 
-           class="px-12 py-6 bg-white text-black rounded-3xl text-2xl font-semibold hover:bg-amber-400 transition flex items-center gap-4">
-          <i class="fas fa-envelope"></i>
-          Email Us
+    <div class="max-w-4xl mx-auto px-8 text-center">
+      <span class="text-amber-400 text-sm tracking-widest">05</span>
+      <h2 class="text-6xl font-bold heading-font mb-6">Ready to Collaborate?</h2>
+      <p class="text-xl text-gray-400 mb-12">Tell us about your project. We'll get back within 24 hours.</p>
+      
+      <div class="flex flex-col md:flex-row gap-6 justify-center">
+        <a href="mailto:contact@evans.com" class="flex-1 max-w-xs mx-auto md:mx-0 px-8 py-6 bg-white text-black rounded-3xl text-xl font-semibold hover:bg-amber-400 transition flex items-center justify-center gap-3">
+          <i class="fas fa-envelope"></i> Email
         </a>
-        <a href="https://www.evans.com" target="_blank"
-           class="px-12 py-6 border-2 border-white rounded-3xl text-2xl font-semibold hover:bg-white hover:text-black transition flex items-center gap-4">
-          <i class="fas fa-globe"></i>
-          Visit Us
+        <a href="https://www.evans.com" target="_blank" class="flex-1 max-w-xs mx-auto md:mx-0 px-8 py-6 border-2 border-white rounded-3xl text-xl font-semibold hover:bg-white hover:text-black transition flex items-center justify-center gap-3">
+          <i class="fas fa-globe"></i> Website
         </a>
       </div>
-      <div class="mt-16 text-gray-400">
-        <p class="text-lg">Headquarters</p>
+
+      <div class="mt-20 text-sm text-gray-400">
+        <p class="uppercase tracking-widest mb-2">Headquarters</p>
         <p>900 West 20th Street, Suite 1001<br>Baltimore, MD 21202</p>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="py-12 border-t border-white/10 text-center text-sm text-gray-500">
-    <p>&copy; 2026 Rave'era Group. All rights reserved.</p>
+  <footer class="py-12 border-t border-white/10 text-center text-xs text-gray-500">
+    © 2026 Rave'era Group. All rights reserved.
   </footer>
 
-  <script>
-    // Tailwind script already loaded
-    console.log('%cRave\'era Group website loaded successfully!', 'color:#fbbf24; font-size:14px;');
-  </script>
 </body>
 </html>
